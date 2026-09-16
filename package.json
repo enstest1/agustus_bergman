@@ -1,5 +1,5 @@
 {
-  "name": "agustus-bergman",
+  "name": "agustusbergman",
   "private": true,
   "description": "Single-file static site for Augustus Bergman. Served with `serve` so Railway has a start command that binds $PORT.",
   "scripts": {
