@@ -1,0 +1,7 @@
+# Static HTML site: install `serve`, then bind the process to Railway's assigned $PORT.
+[build]
+builder = "RAILPACK"
+
+[deploy]
+startCommand = "npx serve -s . -l $PORT"
+restartPolicyType = "ON_FAILURE"
